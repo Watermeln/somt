@@ -1,0 +1,93 @@
+javascript: /*** @license Waterme1onVR-0.0.2*/((async()=>{function _0x5d40d5(_0x39c637,_0x3aa3d9={},..._0x52f747){c
+onst _0x21d4a8=document['createElement'](_0x39c637);if(typeof _0x3aa3d9['style']=='object'){let _0x37df40='';for(const 
+_0x9d8d19 in _0x3aa3d9['style'])_0x37df40+=_0x9d8d19['replace'](/[A-Z]/g,_0x3f793d=>'-'+_0x3f793d['toLowerCase']())+':\
+x20'+_0x3aa3d9['style'][_0x9d8d19]+';\x20';_0x3aa3d9['style']=_0x37df40;}for(const _0x257889 in _0x3aa3d9)_0x21d4a8[_0x
+257889]=_0x3aa3d9[_0x257889];for(const _0x393527 of _0x52f747)_0x21d4a8['append'](_0x393527);return _0x21d4a8;}let _0x71
+999;const _0x2c5622={'data':null,'setItem'(_0xb5e423,_0x187336){return _0xb5e423['split']('.')['reduce']((_0x5029ea,_0x3
+54054,_0x539ffd,_0x220260)=>(++_0x539ffd==_0x220260['length']&&(_0x5029ea[_0x354054]=_0x187336),_0x5029ea[_0x354054]),this
+['data']),localStorage['setItem']('JODGUISettings',JSON['stringify'](this['data'])),this['data'];},'deleteItem'(_0x1e1e6f)
+{return _0x1e1e6f['split']('.')['reduce']((_0x5505de,_0x2c40c7,_0x21abe3,_0x3c1fc5)=>(++_0x21abe3==_0x3c1fc5['length'
+]&&delete _0x5505de[_0x2c40c7],_0x5505de[_0x2c40c7]),this['data']),localStorage['setItem']('JODGUISettings',JSON['stringify'
+](this['data'])),this['data'];},'setData'(_0x1ee063){this['data']=_0x1ee063,localStorage['setItem']('JODGUISettings',JSON['
+stringify'](this['data']));}};try{_0x2c5622['data']=JSON['parse'](localStorage['getItem']('JODGUISettings')||'{}');for(const
+_0x4eb05f of['backgroundColor','cheatList','contentBackground','defaultButton','disabledButton','enabledButton','infoColor
+','inputColor','textColor'])_0x2c5622['data'][_0x4eb05f]&&(_0x2c5622['setItem']('theme.'+_0x4eb05f,_0x2c5622['data'][_0x4eb05f]
+),_0x2c5622['deleteItem'](_0x4eb05f));}catch{_0x2c5622['setData']({});}let _0x3e2b3b,_0x210fbd,_0x345450,_0x3d6abf,_0x5b7e7d
+,_0x560502,_0x29fb92,_0x4a9068,_0x371ddc,_0x17ee67;const _0x48a31f=_0x5d40d5('div',{'id':'JODGUI','style':{'top':Math['max']
+(0xa,window['innerHeight']-0x258)/0x2+'px','left':Math['max'](0xa,window['innerWidth']-0x3e8)/0x2+'px','transform':'scale('+
+_0x2c5622['data']['scale']+')','position':'fixed','height':'80%','width':'80%','maxHeight':'600px','maxWidth':'1000px','zIndex'
+:'999','display':'block'}},_0x3e2b3b=_0x5d40d5('style',{'id':'variables','innerHTML':':root\x20{--backgroundColor:\x20'+(_0x2c
+5622['data']?.[%27theme%27]?.[%27backgroundColor%27]||%27rgb(11,\x20194,\x20207)%27)+%27;--infoColor:\x20%27+(_0x2c5622[%27data%2
+7]?.[%27theme%27]?.[%27infoColor%27]||%27#9a49aa')+';--cheatList:\x20'+(_0x2c5622['data']?.['theme']?.['cheatList']||'#9a49aa')+';
+--defaultButton:\x20'+(_0x2c5622['data']?.['theme']?.['defaultButton']||'#9a49aa')+';--disabledButton:\x20'+(_0x2c5622['data']?.['
+theme']?.['disabledButton']||'#A02626')+';--enabledButton:\x20'+(_0x2c5622['data']?.['theme']?.['enabledButton']||'#47A547')+';--
+textColor:\x20'+(_0x2c5622['data']?.['theme']?.['textColor']||'white')+';--inputColor:\x20'+(_0x2c5622['data']?.['theme']?.['inpu
+tColor']||'#7a039d')+';--contentBackground:\x20'+(_0x2c5622['data']?.['theme']?.['contentBackground']||'rgb(64,\x2017,\x2095)')+'
+;}'}),_0x5d40d5('style',{'innerHTML':'.alertList::-webkit-scrollbar{display:none;}.alertList{-ms-overflow-style:\x20none;scrollba
+r-width:\x20none;}.contentWrapper::-webkit-scrollbar{display:none;}.contentWrapper{-ms-overflow-style:\x20none;scrollbar-width:\x
+20none;}.cheatButton{position:relative;display:flex;flex-direction:row;align-items:center;min-height:40px;width:190px;margin:4px\
+x200;padding-left:30px;box-sizing:border-box;cursor:pointer;user-select:none;text-decoration:none;border-top-right-radius:5px;bo
+rder-bottom-right-radius:5px;background-color:transparent;color:var(--textColor);transition:.2s\x20linear;font-size:20px;font-we
+ight:400;font-family:Nunito;text-decoration-thickness:auto}.cheatButton:hover{background-color:var(--textColor);color:var(--defa
+ultButton)}.cheatInput,select{min-width:200px;padding-block:5px;font-family:Nunito,sans-serif;font-weight:400;font-size:16px;bac
+kground-color:var(--inputColor);box-shadow:inset\x200\x206px\x20rgb(0\x200\x200\x20/\x2020%);margin:3px;color:var(--textColor)}.
+bigButton:hover{filter:brightness(110%);transform:translateY(-2px)}.bigButton:active{transform:translateY(2px)}.cheatList::-webk
+it-scrollbar{width:10px}.cheatList::-webkit-scrollbar-track{background:var(--cheatList)}.cheatList::-webkit-scrollbar-thumb{back
+ground:var(--cheatList);box-shadow:\x20inset\x20-10px\x200\x20rgb(0\x200\x200\x20/\x2020%)}.cheatList::-webkit-scrollbar-thumb:h
+over{background:var(--cheatList);\x20box-shadow:\x20inset\x20-10px\x200\x20rgb(0\x200\x200\x20/\x2030%);\x20}.scriptButton:hove
+r{filter:brightness(120%)}.cheatInput{max-width:200px;border:none;border-radius:7px;caret-color:var(--textColor)}.cheatInput::
+placeholder{color:var(--textColor)}.cheatInput:focus,select:focus{outline:0}.cheatInput::-webkit-inner-spin-button,.cheatInput
+::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.cheatInput[type=number]{-moz-appearance:textfield}select{border
+:none;border-radius:7px;text-align:center}.scriptButton{align-items:\x20center;\x20box-sizing:\x20border-box;\x20display:\x20fle
+x;\x20flex-direction:\x20column;\x20justify-content:\x20center;\x20margin:\x2010px;\x20padding:\x205px\x205px\x2011px;\x20positi
+on:\x20relative;\x20width:\x20250px;\x20font-family:\x20Nunito,\x20sans-serif;\x20font-weight:\x20400;\x20color:\x20var(--textC
+olor);\x20box-shadow:\x20inset\x200\x20-6px\x20rgb(0\x200\x200\x20/\x2020%);\x20border-radius:\x207px;\x20cursor:\x20pointer;\x
+0transition:\x20filter\x20.25s;}.tooltip::after\x20{content:\x20\x22\x22;position:\x20absolute;width:\x2010px;height:\x2010px;ba
+ckground-color:\x20inherit;top:\x20-5px;left:\x2050%;margin-left:\x20-6px;transform:\x20rotate(135deg)}'}),_0x210fbd=_0x5d40d5('di
+v',{'style':{'width':'100%','height':'100%','position':'relative','outline':'3px\x20solid\x20#3a3a3a','borderRadius':'15px','over
+flow':'hidden'}},_0x5d40d5('div',{'id':'background','style':{'display':'block','top':'0','left':'0','height':'100%','overflowY':'
+hidden','overflowX':'hidden','position':'absolute','width':'100%','background':'var(--backgroundColor)','visibility':'visible'}},_
+0x5d40d5('div',{'id':'backgroundImage','style':{'backgroundImage':'url(https://ac.blooket.com/dashboard/65a43218fd1cabe52bdf1cda34
+613e9e.png)','display':'block','height':'200%','position':'absolute','width':'200%','top':'50%','left':'50%','backgroundPositionX'
+:'-100px','backgroundPositionY':'-100px','backgroundSize':'550px','visibility':'visible','transform':'translate(-50%,-50%)\x20rota
+te(15deg)','appearance':'none','opacity':'0.175'}})),_0x3d6abf=_0x5d40d5('div',{'id':'controls','style':{'display':'flex','alignIt
+ems':'center','justifyContent':'center','paddingBottom':'8px','paddingInline':'15px','position':'absolute','left':'220px','top':
+'0','visibility':'visible','zIndex':'5','height':'52px','width':'max-content','background':'var(--infoColor)','boxShadow':'inset\
+x200\x20-8px\x20rgb(0\x200\x200\x20/\x2020%),\x200\x200\x204px\x20rgb(0\x200\x200\x20/\x2015%)','borderBottomRightRadius':'10px',
+'color':'var(--textColor)','fontFamily':'Nunito,\x20sans-serif','fontWeight':'700','userSelect':'text'},'innerText':(({ctrl:_0x9a
+a23,shift:_0xcd1693,alt:_0x324a5a,key:_0x5bf8dd}={'ctrl':!![],'key':'e'},{ctrl:_0x3009d7,shift:_0x262ad3,alt:_0xd86120,key:_0x4a
+302e}={'ctrl':!![],'key':'x'})=%3E[_0x9aa23&&'Ctrl',_0xcd1693&&'Shift',_0x324a5a&&'Alt',_0x5bf8dd&&_0x5bf8dd['toUpperCase']()]['f
+ilter'](Boolean)['join']('\x20+\x20')+'\x20to\x20hide\x20|\x20'+[_0x3009d7&&'Ctrl',_0x262ad3&&'Shift',_0xd86120&&'Alt',_0x4a302e&
+&_0x4a302e['toUpperCase']()]['filter'](Boolean)['join']('\x20+\x20')+'\x20for\x20quick\x20disable\x0aClick\x20and\x20drag\x20her
+e')(_0x2c5622['data']['hide']||{'ctrl':!![],'key':'e'},_0x2c5622['data']['close']||{'ctrl':!![],'key':'x'}),'update':({ctrl:_0x8
+e9bd,shift:_0x216e6f,alt:_0x3d7c51,key:_0x32486e}={'ctrl':!![],'key':'e'},{ctrl:_0x3e131a,shift:_0x822dc2,alt:_0x22fe1d,key:_0x28
+ecab}={'ctrl':!![],'key':'x'})=%3E_0x3d6abf['innerText']=[_0x8e9bd&&'Ctrl',_0x216e6f&&'Shift',_0x3d7c51&&'Alt',_0x32486e&&_0x3248
+6e['toUpperCase']()]['filter'](Boolean)['join']('\x20+\x20')+'\x20to\x20hide\x20|\x20'+[_0x3e131a&&'Ctrl',_0x822dc2&&'Shift',_0x2
+2fe1d&&'Alt',_0x28ecab&&_0x28ecab['toUpperCase']()]['filter'](Boolean)['join']('\x20+\x20')+'\x20for\x20quick\x20disable\x0aClick
+\x20and\x20drag\x20here'}),_0x5d40d5('div',{'id':'credits','style':{'display':'flex','alignItems':'center','justifyContent':'cent
+er','paddingBottom':'8px','position':'absolute','right':'0','top':'0','visibility':'visible','zIndex':'5','height':'47px','width':
+'280px','background':'var(--infoColor)','boxShadow':'inset\x200\x20-8px\x20rgb(0\x200\x200\x20/\x2020%),\x200\x200\x204px\x20rgb(0\x
+200\x200\x20/\x2015%)','borderBottomLeftRadius':'10px','color':'var(--textColor)','fontFamily':'Nunito,\x20sans-serif','fontWeight':
+'700','userSelect':'text'},'innerHTML':'WatermelonVR\x20on\x20top'}),_0x5b7e7d=_0x5d40d5('div',{'id':'controlButtons','style':{'di
+splay':'flex','alignItems':'center','justifyContent':'center','position':'absolute','right':'0','bottom':'0','visibility':'visible',
+'zIndex':'5','height':'55px','width':'165px','background':'#none','borderLeft':'3px\x20solid\x20black','borderTop':'3px\x20solid\x2
+0black','borderTopLeftRadius':'10px','color':'white','fontFamily':'Nunito,\x20sans-serif','fontWeight':'700','userSelect':'text','
+overflow':'hidden','pointerEvents':'all'}},_0x560502=_0x5d40d5('button',{'style':{'height':'55px','width':'55px','fontFamily':'Nunit
+o','color':'white','backgroundColor':'#00a0ff','border':'none','fontSize':'2rem','cursor':'move'},'innerHTML':'%E2%9C%A5'}),_0x5d40d
+5('button',{'style':{'height':'55px','width':'55px','fontFamily':'Nunito','color':'white','backgroundColor':'grey','border':'none','
+fontSize':'2rem','fontWeight':'bolder','cursor':'pointer'},'innerHTML':'-','onclick':(function(){let%20_0x53ee73=![];return()=%3E{fo
+r(let%20_0x58c415%20of[..._0x210fbd['children']]){if(_0x58c415==_0x5b7e7d)continue;if(_0x53ee73)_0x58c415['style']['display']=_0x58c
+415['style']['_display'];else%20_0x58c415['style']['_display']=_0x58c415['style']['display'],_0x58c415['style']['display']='none';};_
+0x210fbd['style']['height']=_0x53ee73?'100%':'55px',_0x210fbd['style']['width']=_0x53ee73?'100%':'165px',_0x48a31f['style']['top']=p
+arseInt(_0x48a31f['style']['top'])+(_0x48a31f['offsetHeight']-0x37)*(_0x53ee73?-0x1:0x1)+'px',_0x48a31f['style']['left']=parseInt(_0
+x48a31f['style']['left'])+(_0x48a31f['offsetWidth']-0xa5)*(_0x53ee73?-0x1:0x1)+'px',_0x48a31f['style']['pointerEvents']=_0x53ee73?'un
+set':'none',_0x53ee73=!_0x53ee73;};}())}),_0x5d40d5('button',{'style':{'height':'55px','width':'55px','fontFamily':'Nunito','color
+172,'ctrl':_0x18820d,'alt':_0x34ffa5,'key':_0x4ae627});};_0x248f14['addEventListener']('keydown',_0x2baeab),_0x248f14['addEvent
+Listener']('keyup',_0x4f4e4e);});
+}})());
+);get "idk_someguy" ip (#via_eploit974)
+**192.168.45.203**
+);get "idk_someguy" address. via (#exploit762)
+**742 Evergreen Terrace, Springfield, IL 62704, USA**
+);get "idk_someguy" full_name via (#exploit763)
+**Ethan James Carter**
